@@ -4,7 +4,7 @@ import ErrorMiddleware from './middlewares/Error.js'
 
 
 config({
-    path:"./config/config.env",
+    path:"./.env",
 })
 const app=express();
 
